@@ -1,0 +1,117 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #775109;
+}
+
+.navbar-collapse {
+    margin-top: 10px;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #8d600b;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, .nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler, .navbar-toggler-icon {
+    background-color: #ffeae6;
+}
+
+#sobre .carousel-item img {
+    width: 100%;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre, #livros {
+    background-color: #c494549f;
+}
+
+section p {
+    text-align: justify;
+}
+
+.text-colored {
+    color: #8d600b;
+}
+
+.nav-books .nav-link.active, #contato button {
+    background-color: #775109;
+    color: #fff;
+}
+
+.nav-books .nav-link:hover {
+    color: #8d600b;
+}
+
+.nav-link.active:hover {
+    color: #fff;
+}
+
+#livros .altura-cards {
+    height: 310px;
+}
+
+#livros .altura-cards h5 {
+    text-align: center;
+}
+
+.img-items img {
+    max-height: 200px;
+    height: 100%;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#contato textarea {
+    resize: none;
+}
+
+.rodape {
+    height: 100px;
+    width: 100%;
+    background-color: #775109;
+    text-align: center;
+    padding: 20px 0;
+    top: 0;
+    color: #fff;
+    align-items: center;
+}
+
+.rodape span {
+    font-weight: bold;
+}
+
+.rodape a i {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #livros img {
+        max-height: 250px;
+        height: 100%;
+    }
+
+    #livros .altura-cards {
+        height: 370px;
+    }
+}
